@@ -8,3 +8,4 @@ RUN dnf install -y \
     gcc \
     g++ \
     nodejs
+WORKDIR /root
