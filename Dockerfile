@@ -7,5 +7,9 @@ RUN dnf install -y \
     git \
     gcc \
     g++ \
-    nodejs
+    nodejs \
+    llvm \
+    clang \
+    wabt \
+    lld
 WORKDIR /root
